@@ -14,4 +14,12 @@ This is a personal course project for COMP 2613 (Java Application Development)
 </ul>
 
 ## Tech skill used:
-Java, Object Oriented Design, MVC, JUnit, SQL, Swing, Apache Log4j.
+<ul>
+<li>Java</li>
+<li>Object Oriented Design</li>
+<li>MVC</li>
+<li>JUnit</li>
+<li>SQL</li>
+<li>Swing</li>
+<li>Apache Log4j</li>
+</ul>
