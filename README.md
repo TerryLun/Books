@@ -23,3 +23,9 @@ This is a personal course project for COMP 2613 (Java Application Development)
 <li>Swing</li>
 <li>Apache Log4j</li>
 </ul>
+
+## Design pattern used:
+<ul>
+<li>Builder</li>
+<li>Singleton</li>
+</ul>
