@@ -58,7 +58,7 @@ public class CustomerListDialog extends JDialog {
 		JPanel contentPanel = new JPanel();
 		contentPanel.setLayout(new FlowLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
-		String[] column = { "ID", "First name", "Last name", "Street", "City", "Postal Code", "Phone", "Email", "Join Date", "Lenght" };
+		String[] column = { "ID", "First name", "Last name", "Street", "City", "Postal Code", "Phone", "Email", "Join Date", "Length" };
 
 		// Constructs the JTable with the data retrieve from database
 		Object[][] rowData = new Object[customers.size()][11];
