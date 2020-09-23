@@ -1,8 +1,3 @@
-/**
- * Project: Books
-
- */
-
 package book.io;
 
 import java.util.ArrayList;
@@ -28,13 +23,13 @@ import book.db.CustomerDao;
 public class PurchasesReport {
 
 	private static List<Item> items;
-	private static Logger LOG = LogManager.getLogger();
+	private static final Logger LOG = LogManager.getLogger();
 
 	/**
 	 * Print the report.
 	 * 
-	 * @param out
-	 * @return
+	 * @param purchases purchases
+	 * @return purchase list
 	 */
 	public static List<Item> filters(List<Purchase> purchases) {
 		try {
@@ -54,17 +49,17 @@ public class PurchasesReport {
 
 		if (BookOptions.isByLastNameOptionSet()) {
 			if (BookOptions.isDescendingOptionSet()) {
-				Collections.sort(items, new CompareByLastNameDescending());
+				items.sort(new CompareByLastNameDescending());
 			} else {
-				Collections.sort(items, new CompareByLastName());
+				items.sort(new CompareByLastName());
 			}
 		}
 
 		if (BookOptions.isByTitleOptionSet()) {
 			if (BookOptions.isDescendingOptionSet()) {
-				Collections.sort(items, new CompareByTitleDescending());
+				items.sort(new CompareByTitleDescending());
 			} else {
-				Collections.sort(items, new CompareByTitle());
+				items.sort(new CompareByTitle());
 			}
 		}
 		return items;
@@ -99,8 +94,8 @@ public class PurchasesReport {
 	}
 
 	public static class Item {
-		private String firstName;
-		private String lastName;
+		private final String firstName;
+		private final String lastName;
 
 		/**
 		 * @return the firstName
@@ -130,14 +125,14 @@ public class PurchasesReport {
 			return price;
 		}
 
-		private String title;
-		private float price;
+		private final String title;
+		private final float price;
 
 		/**
-		 * @param firstName
-		 * @param lastName
-		 * @param title
-		 * @param price
+		 * @param firstName first name
+		 * @param lastName last name
+		 * @param title title
+		 * @param price price
 		 */
 		public Item(String firstName, String lastName, String title, float price) {
 			this.firstName = firstName;

@@ -1,8 +1,3 @@
-/**
- * Project: Books
- * File: Validator.java
- */
-
 package book.data.util;
 
 import java.util.regex.Matcher;

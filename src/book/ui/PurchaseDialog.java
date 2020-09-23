@@ -1,8 +1,3 @@
-/**
- * Project: Books
- * File:PurchaseDialog.java
- *
- */
 package book.ui;
 
 import java.awt.BorderLayout;
@@ -35,8 +30,6 @@ import book.io.PurchasesReport.Item;
 @SuppressWarnings("serial")
 public class PurchaseDialog extends JDialog {
 
-	private final JPanel contentPanel = new JPanel();
-
 	private static final Logger LOG = LogManager.getLogger(PurchaseDialog.class);
 
 	/**
@@ -47,12 +40,13 @@ public class PurchaseDialog extends JDialog {
 		setBounds(100, 100, 800, 500);
 		
 		getContentPane().setLayout(new BorderLayout());
+		JPanel contentPanel = new JPanel();
 		contentPanel.setLayout(new FlowLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
 
-		Object columnNames[] = { "Customer Name", "Book Title", "Price" };
+		Object[] columnNames = { "Customer Name", "Book Title", "Price" };
 
-		Object rowData[][] = new Object[purchases.size()][11];
+		Object[][] rowData = new Object[purchases.size()][11];
 		int i = 0;
 		for (Item purchase : purchases) {
 			try {

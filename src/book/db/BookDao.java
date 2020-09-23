@@ -1,8 +1,3 @@
-/**
- * Project: Books
- * File: BookDao.java
- *
- */
 package book.db;
 
 import java.io.File;
@@ -30,8 +25,8 @@ public class BookDao extends Dao {
 
 	private static final String BOOKS_DATA_FILENAME = "books500.csv";
 	
-	private static Logger LOG = LogManager.getLogger();
-	private static BookDao theInstance = new BookDao();
+	private static final Logger LOG = LogManager.getLogger();
+	private static final BookDao theInstance = new BookDao();
 	private static Database database;
 
 	private BookDao() {
@@ -45,9 +40,7 @@ public class BookDao extends Dao {
 	}
 
 	/**
-	 * @param bookDataFile
-	 * @throws ApplicationException
-	 * @throws SQLException
+	 * @throws ApplicationException Application Exception
 	 */
 	public void init() throws ApplicationException {
 		File bookDataFile = new File(BOOKS_DATA_FILENAME);
@@ -118,8 +111,8 @@ public class BookDao extends Dao {
 	/**
 	 * Update the book.
 	 *
-	 * @param book
-	 * @throws SQLException
+	 * @param book book to update
+	 * @throws SQLException SQL Exception
 	 */
 	public void update(Book book) throws SQLException {
 		String sqlString = String.format("UPDATE %s SET %s=?, %s=?, %s=?, %s=?, %s=?, %s=?, %s=? WHERE %s=?", TABLE_NAME, //
@@ -148,8 +141,8 @@ public class BookDao extends Dao {
 	/**
 	 * Delete the book from the database.
 	 *
-	 * @param book
-	 * @throws SQLException
+	 * @param book book to delete
+	 * @throws SQLException SQL Exception
 	 */
 	public void delete(Book book) throws SQLException {
 		Connection connection;
@@ -171,7 +164,7 @@ public class BookDao extends Dao {
 	 * Retrieve all the book IDs from the database
 	 *
 	 * @return the list of book IDs
-	 * @throws SQLException
+	 * @throws SQLException SQL Exception
 	 */
 	public List<Long> getBookIds() throws SQLException {
 		List<Long> ids = new ArrayList<>();
@@ -200,9 +193,9 @@ public class BookDao extends Dao {
 	}
 
 	/**
-	 * @param bookId
-	 * @return
-	 * @throws Exception
+	 * @param bookId book Id
+	 * @return book object
+	 * @throws Exception Exception
 	 */
 	public Book getBook(Long bookId) throws Exception {
 		String sqlString = String.format("SELECT * FROM %s WHERE %s = %d", TABLE_NAME, Column.ID.name, bookId);
@@ -242,8 +235,8 @@ public class BookDao extends Dao {
 	}
 
 	/**
-	 * @return
-	 * @throws Exception
+	 * @return book count
+	 * @throws Exception Exception
 	 */
 	public int countAllBooks() throws Exception {
 		Statement statement = null;

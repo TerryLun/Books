@@ -44,7 +44,6 @@ import net.miginfocom.swing.MigLayout;
 @SuppressWarnings("serial")
 public class CustomerListDialog extends JDialog {
 	private static final Logger LOG = LogManager.getLogger(CustomerListDialog.class);
-	private final JPanel contentPanel = new JPanel();
 	private static boolean refresh;
 
 	/**
@@ -56,12 +55,13 @@ public class CustomerListDialog extends JDialog {
 		
 		getContentPane().setLayout(new BorderLayout());
 		setResizable(false);
+		JPanel contentPanel = new JPanel();
 		contentPanel.setLayout(new FlowLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
-		String column[] = { "ID", "First name", "Last name", "Street", "City", "Postal Code", "Phone", "Email", "Join Date", "Lenght" };
+		String[] column = { "ID", "First name", "Last name", "Street", "City", "Postal Code", "Phone", "Email", "Join Date", "Lenght" };
 
 		// Constructs the JTable with the data retrieve from database
-		Object rowData[][] = new Object[customers.size()][11];
+		Object[][] rowData = new Object[customers.size()][11];
 		int i = 0;
 		for (Customer customer : customers) {
 			LocalDate date = customer.getJoinedDate();
@@ -167,6 +167,7 @@ public class CustomerListDialog extends JDialog {
 
 	/**
 	 * @param customers
+	 * 			list of customers
 	 */
 	public static void callDialog(List<Customer> customers) {
 		try {

@@ -1,8 +1,3 @@
-/**
- * Project: Books
- * File:Myframe.java
- *
- */
 package book.ui;
 
 import java.awt.BorderLayout;
@@ -56,10 +51,9 @@ public class MainFrame extends JFrame {
 
 	private static final Logger LOG = LogManager.getLogger();
 
-	private JPanel contentPane;
-	private CustomerDao customerDao;
-	private BookDao bookDao;
-	private PurchaseDao purchaseDao;
+	private final CustomerDao customerDao;
+	private final BookDao bookDao;
+	private final PurchaseDao purchaseDao;
 	
 	private static List<Customer> customers;
 	private static List<Book> books;
@@ -366,7 +360,7 @@ public class MainFrame extends JFrame {
 					int count = 0;
 					List<Purchase> purchaseFilter = new ArrayList<>();
 					for (Purchase purchase : purchases) {
-						if (purchase.getCustomerId() == filterId) {
+						if (String.valueOf(purchase.getCustomerId()).contains(String.valueOf(filterId))) {
 							try {
 								purchaseFilter.add(purchase);
 							} catch (Exception e1) {
@@ -399,7 +393,7 @@ public class MainFrame extends JFrame {
 			}
 		});
 		mnHelp.add(mntmAbout);
-		contentPane = new JPanel();
+		JPanel contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);

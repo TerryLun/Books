@@ -1,7 +1,3 @@
-/**
- * Project: Books
- * File: Database.java
- */
 package book.db;
 
 import java.io.FileInputStream;
@@ -31,7 +27,7 @@ public class Database {
 
 	private static final Logger LOG = LogManager.getLogger();
 
-	private static Database theInstance = new Database();
+	private static final Database theInstance = new Database();
 	private static Connection connection;
 	private static boolean dbTableDropRequested;
 	private static Properties properties;
@@ -98,15 +94,13 @@ public class Database {
 	 * 
 	 * @param tableName
 	 * @return true is the table exists, false otherwise
-	 * @throws SQLException
+	 * @throws SQLException SQL Exception
 	 */
 	public static boolean tableExists(String targetTableName) throws SQLException {
 		DatabaseMetaData databaseMetaData = Database.getTheInstance().getConnection().getMetaData();
-		ResultSet resultSet = null;
-		String tableName = null;
 
-		try {
-			resultSet = databaseMetaData.getTables(connection.getCatalog(), "%", "%", null);
+		String tableName = null;
+		try (ResultSet resultSet = databaseMetaData.getTables(connection.getCatalog(), "%", "%", null)) {
 			while (resultSet.next()) {
 				tableName = resultSet.getString("TABLE_NAME");
 				if (tableName.equalsIgnoreCase(targetTableName)) {
@@ -114,8 +108,6 @@ public class Database {
 					return true;
 				}
 			}
-		} finally {
-			resultSet.close();
 		}
 
 		return false;

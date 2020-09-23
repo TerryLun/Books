@@ -1,8 +1,3 @@
-/**
- * Project: Books
-
- */
-
 package book.io;
 
 import java.io.File;
@@ -43,7 +38,7 @@ public class PurchaseReader extends Reader {
 	 * Read the inventory input data.
 	 * 
 	 * @return the inventory.
-	 * @throws ApplicationException
+	 * @throws ApplicationException Application Exception
 	 */
 	public static int read(File purchaseDataFile, PurchaseDao dao) throws ApplicationException {
 		int purchaseCount = 0;

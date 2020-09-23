@@ -1,8 +1,3 @@
-/**
- * Project: Books
- * File: All data
- *
- */
 package book.data;
 
 import java.util.Map;
@@ -28,7 +23,7 @@ public class AllData {
 	}
 
 	/**
-	 * @throws ApplicationException
+	 * @throws ApplicationException Application Exception
 	 * 
 	 */
 	public static void loadData() throws ApplicationException {

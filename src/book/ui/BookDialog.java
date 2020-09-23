@@ -1,8 +1,3 @@
-/**
- * Project: Books
- * File:BookDialog.java
- *
- */
 package book.ui;
 
 import java.awt.BorderLayout;
@@ -33,8 +28,7 @@ import java.awt.event.ActionListener;
 @SuppressWarnings("serial")
 public class BookDialog extends JDialog {
 
-	private static Logger LOG = LogManager.getLogger();
-	private final JPanel contentPanel = new JPanel();
+	private static final Logger LOG = LogManager.getLogger();
 
 	/**
 	 * Create the dialog.
@@ -44,12 +38,13 @@ public class BookDialog extends JDialog {
 		setBounds(100, 100, 800, 600);
 		getContentPane().setLayout(new BorderLayout());
 		setResizable(false);
-		
+
+		JPanel contentPanel = new JPanel();
 		contentPanel.setLayout(new FlowLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
-		String column[] = { "ID", "ISBN", "Authors", "Year", "Title", "Rating", "Ratings Count", "Image URL" };
+		String[] column = { "ID", "ISBN", "Authors", "Year", "Title", "Rating", "Ratings Count", "Image URL" };
 
-		Object rowData[][] = new Object[books.size()][11];
+		Object[][] rowData = new Object[books.size()][11];
 		int i = 0;
 		for (Book book : books) {
 			rowData[i][0] = book.getId();

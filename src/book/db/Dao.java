@@ -1,7 +1,3 @@
-/**
- * Project: Books
- *
- */
 package book.db;
 
 import java.sql.Connection;
@@ -23,7 +19,7 @@ import org.apache.logging.log4j.Logger;
  *
  */
 public abstract class Dao {
-	private static Logger LOG = LogManager.getLogger(Dao.class);
+	private static final Logger LOG = LogManager.getLogger(Dao.class);
 	protected final Database database;
 	protected final String tableName;
 
@@ -44,7 +40,7 @@ public abstract class Dao {
 	/**
 	 * Delete the database table
 	 * 
-	 * @throws SQLException
+	 * @throws SQLException SQL Exception
 	 */
 	public void drop() throws SQLException {
 		Statement statement = null;

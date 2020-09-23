@@ -1,7 +1,3 @@
-/**
- * Project: Books
- */
-
 package book.data;
 
 import java.time.LocalDate;
@@ -265,8 +261,8 @@ public class Customer {
 	/**
 	 * Set the joined date
 	 *
-	 * @param date
-	 *            the local date
+	 * @param joinedDate
+	 *            the joined date
 	 */
 	public void setJoinedDate(LocalDate joinedDate) {
 		this.joinedDate = joinedDate;

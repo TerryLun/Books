@@ -9870,3 +9870,381 @@ Creating MainFrame
 2020-09-20 02:04:52.496 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
 2020-09-20 02:19:17.373 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-20T09:19:17.372769600Z
 2020-09-20 02:19:17.373 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 874994 ms
+2020-09-20 02:31:55.703 [main] INFO  book.Books2 - Starting Books
+2020-09-20 02:31:55.705 [main] INFO  book.Books2 - 2020-09-20T09:31:55.704574300Z
+2020-09-20 02:31:55.711 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-20 02:31:55.713 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-20 02:31:56.283 [main] DEBUG book.db.Database - Database connected
+2020-09-20 02:31:56.401 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-20 02:31:56.433 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-20 02:31:56.469 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-20 02:31:56.470 [main] DEBUG book.Books2 - Creating the UI
+2020-09-20 02:31:56.528 [main] INFO  book.Books2 - 2020-09-20T09:31:56.528575300Z
+2020-09-20 02:31:56.529 [main] INFO  book.Books2 - Duration: 824 ms
+2020-09-20 02:31:56.529 [main] INFO  book.Books2 - Books has stopped
+2020-09-20 02:31:56.916 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-20 02:31:56.918 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-20 02:31:56.933 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-20 02:31:58.280 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-20 02:31:58.301 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-20 02:32:04.921 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-20 02:32:04.935 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-20 02:36:17.388 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-20T09:36:17.387282500Z
+2020-09-20 02:36:17.389 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 262251 ms
+2020-09-20 03:20:01.764 [main] INFO  book.Books2 - Starting Books
+2020-09-20 03:20:01.766 [main] INFO  book.Books2 - 2020-09-20T10:20:01.765369Z
+2020-09-20 03:20:01.773 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-20 03:20:01.775 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-20 03:20:02.363 [main] DEBUG book.db.Database - Database connected
+2020-09-20 03:20:02.513 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-20 03:20:02.548 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-20 03:20:02.589 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-20 03:20:02.590 [main] DEBUG book.Books2 - Creating the UI
+2020-09-20 03:20:02.651 [main] INFO  book.Books2 - 2020-09-20T10:20:02.651367600Z
+2020-09-20 03:20:02.652 [main] INFO  book.Books2 - Duration: 885 ms
+2020-09-20 03:20:02.652 [main] INFO  book.Books2 - Books has stopped
+2020-09-20 03:20:03.038 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-20 03:20:03.040 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-20 03:20:03.056 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-20 03:20:04.391 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-20 03:20:04.406 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-20 03:20:10.959 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-20 03:20:10.976 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-20 03:20:13.846 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-20T10:20:13.846366600Z
+2020-09-20 03:20:13.846 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 12710 ms
+2020-09-22 01:26:18.564 [main] INFO  book.Books2 - Starting Books
+2020-09-22 01:26:18.565 [main] INFO  book.Books2 - 2020-09-22T08:26:18.565555900Z
+2020-09-22 01:26:18.570 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-22 01:26:18.571 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-22 01:26:19.089 [main] DEBUG book.db.Database - Database connected
+2020-09-22 01:26:19.185 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-22 01:26:19.224 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-22 01:26:19.272 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-22 01:26:19.273 [main] DEBUG book.Books2 - Creating the UI
+2020-09-22 01:26:19.306 [main] INFO  book.Books2 - 2020-09-22T08:26:19.306245100Z
+2020-09-22 01:26:19.307 [main] INFO  book.Books2 - Duration: 740 ms
+2020-09-22 01:26:19.307 [main] INFO  book.Books2 - Books has stopped
+2020-09-22 01:26:19.574 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-22 01:26:19.575 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 01:26:19.596 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 01:26:21.563 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-22 01:26:21.593 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-22 01:26:32.905 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 01:26:32.933 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 01:26:36.734 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-22T08:26:36.734520800Z
+2020-09-22 01:26:36.735 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 18504 ms
+2020-09-22 01:55:16.725 [main] INFO  book.Books2 - Starting Books
+2020-09-22 01:55:16.726 [main] INFO  book.Books2 - 2020-09-22T08:55:16.726808900Z
+2020-09-22 01:55:16.733 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-22 01:55:16.735 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-22 01:55:17.149 [main] DEBUG book.db.Database - Database connected
+2020-09-22 01:55:17.224 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-22 01:55:17.255 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-22 01:55:17.286 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-22 01:55:17.287 [main] DEBUG book.Books2 - Creating the UI
+2020-09-22 01:55:17.352 [main] INFO  book.Books2 - 2020-09-22T08:55:17.352386100Z
+2020-09-22 01:55:17.353 [main] INFO  book.Books2 - Duration: 625 ms
+2020-09-22 01:55:17.353 [main] INFO  book.Books2 - Books has stopped
+2020-09-22 01:55:17.657 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-22 01:55:17.658 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 01:55:17.673 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 01:55:19.069 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-22 01:55:19.083 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-22 01:55:26.128 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 01:55:26.141 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 01:55:32.714 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-22T08:55:32.714433400Z
+2020-09-22 01:55:32.714 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 16361 ms
+2020-09-22 01:57:00.050 [main] INFO  book.Books2 - Starting Books
+2020-09-22 01:57:00.051 [main] INFO  book.Books2 - 2020-09-22T08:57:00.051714700Z
+2020-09-22 01:57:00.054 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-22 01:57:00.056 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-22 01:57:00.410 [main] DEBUG book.db.Database - Database connected
+2020-09-22 01:57:00.490 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-22 01:57:00.527 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-22 01:57:00.566 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-22 01:57:00.567 [main] DEBUG book.Books2 - Creating the UI
+2020-09-22 01:57:00.620 [main] INFO  book.Books2 - 2020-09-22T08:57:00.620018100Z
+2020-09-22 01:57:00.620 [main] INFO  book.Books2 - Duration: 568 ms
+2020-09-22 01:57:00.620 [main] INFO  book.Books2 - Books has stopped
+2020-09-22 01:57:00.793 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-22 01:57:00.793 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 01:57:00.807 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 01:57:02.175 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-22 01:57:02.191 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-22 01:57:09.085 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 01:57:09.098 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 01:57:13.127 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 01:57:13.141 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 01:57:24.254 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 01:57:24.268 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 01:57:34.981 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-22T08:57:34.981409400Z
+2020-09-22 01:57:34.981 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 35242 ms
+2020-09-22 01:59:45.028 [main] INFO  book.Books2 - Starting Books
+2020-09-22 01:59:45.028 [main] INFO  book.Books2 - 2020-09-22T08:59:45.028908400Z
+2020-09-22 01:59:45.032 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-22 01:59:45.033 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-22 01:59:45.374 [main] DEBUG book.db.Database - Database connected
+2020-09-22 01:59:45.449 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-22 01:59:45.487 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-22 01:59:45.529 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-22 01:59:45.530 [main] DEBUG book.Books2 - Creating the UI
+2020-09-22 01:59:45.560 [main] INFO  book.Books2 - 2020-09-22T08:59:45.560816500Z
+2020-09-22 01:59:45.560 [main] INFO  book.Books2 - Duration: 531 ms
+2020-09-22 01:59:45.560 [main] INFO  book.Books2 - Books has stopped
+2020-09-22 01:59:45.732 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-22 01:59:45.733 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 01:59:45.749 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 01:59:47.094 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-22 01:59:47.110 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-22 01:59:54.012 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 01:59:54.029 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 01:59:57.365 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 01:59:57.378 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 02:00:09.525 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 02:00:09.543 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 02:00:18.996 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-22T09:00:18.996668600Z
+2020-09-22 02:00:18.996 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 34253 ms
+2020-09-22 02:07:27.074 [main] INFO  book.Books2 - Starting Books
+2020-09-22 02:07:27.075 [main] INFO  book.Books2 - 2020-09-22T09:07:27.075510300Z
+2020-09-22 02:07:27.080 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-22 02:07:27.081 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-22 02:07:27.404 [main] DEBUG book.db.Database - Database connected
+2020-09-22 02:07:27.484 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-22 02:07:27.524 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-22 02:07:27.564 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-22 02:07:27.566 [main] DEBUG book.Books2 - Creating the UI
+2020-09-22 02:07:27.622 [main] INFO  book.Books2 - 2020-09-22T09:07:27.622392800Z
+2020-09-22 02:07:27.623 [main] INFO  book.Books2 - Duration: 546 ms
+2020-09-22 02:07:27.623 [main] INFO  book.Books2 - Books has stopped
+2020-09-22 02:07:27.792 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-22 02:07:27.792 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 02:07:27.806 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 02:07:29.133 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-22 02:07:29.148 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-22 02:07:36.203 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 02:07:36.222 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 02:07:54.393 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 02:07:54.412 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 02:08:01.192 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 02:08:01.212 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 02:08:12.183 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-22T09:08:12.183450400Z
+2020-09-22 02:08:12.183 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 45393 ms
+2020-09-22 02:34:41.192 [main] INFO  book.Books2 - Starting Books
+2020-09-22 02:34:41.193 [main] INFO  book.Books2 - 2020-09-22T09:34:41.193846200Z
+2020-09-22 02:34:41.196 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-22 02:34:41.198 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-22 02:34:41.528 [main] DEBUG book.db.Database - Database connected
+2020-09-22 02:34:41.601 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-22 02:34:41.636 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-22 02:34:41.680 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-22 02:34:41.682 [main] DEBUG book.Books2 - Creating the UI
+2020-09-22 02:34:41.738 [main] INFO  book.Books2 - 2020-09-22T09:34:41.738822200Z
+2020-09-22 02:34:41.738 [main] INFO  book.Books2 - Duration: 544 ms
+2020-09-22 02:34:41.738 [main] INFO  book.Books2 - Books has stopped
+2020-09-22 02:34:41.911 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-22 02:34:41.911 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 02:34:41.925 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 02:34:43.201 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-22 02:34:43.220 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-22 02:34:49.613 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 02:34:49.628 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 02:34:54.971 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 02:34:54.984 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 02:35:12.435 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 02:35:12.447 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Update statment: UPDATE A00855225_NEWCustomer SET firstName=?, lastName=?, street=?, city=?, postalCode=?, phone=?, emailAddress=?, joinedDate=? WHERE id=?
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - UPDATE A00855225_NEWCustomer SET firstName=?, lastName=?, street=?, city=?, postalCode=?, phone=?, emailAddress=?, joinedDate=? WHERE id=?
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - [Jesciee, Mcbride, Ap #944-4855 Erat, St., Santa Juana, 58209, 725-538-4828, quis.urna@semperauctor.co.uk, 2008-02-17, 1175]
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - parameter count = 9
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 1: Jesciee of type java.lang.String
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 2: Mcbride of type java.lang.String
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 3: Ap #944-4855 Erat, St. of type java.lang.String
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 4: Santa Juana of type java.lang.String
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 5: 58209 of type java.lang.String
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 6: 725-538-4828 of type java.lang.String
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 7: quis.urna@semperauctor.co.uk of type java.lang.String
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 8: 2008-02-17 of type java.time.LocalDate
+2020-09-22 02:35:36.737 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 9: 1175 of type java.lang.Long
+2020-09-22 02:35:36.776 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Updating Customer [id=1175, firstName=Jesciee, lastName=Mcbride, street=Ap #944-4855 Erat, St., city=Santa Juana, postalCode=58209, phone=725-538-4828, emailAddress=quis.urna@semperauctor.co.uk, joinedDate=2008-02-17] was unsuccessful
+2020-09-22 02:35:36.786 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 02:35:36.798 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Update statment: UPDATE A00855225_NEWCustomer SET firstName=?, lastName=?, street=?, city=?, postalCode=?, phone=?, emailAddress=?, joinedDate=? WHERE id=?
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - UPDATE A00855225_NEWCustomer SET firstName=?, lastName=?, street=?, city=?, postalCode=?, phone=?, emailAddress=?, joinedDate=? WHERE id=?
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - [Jescie, Mcbride, Ap #944-4855 Erat, St., Santa Juana, 58209, 725-538-4828, quis.urna@semperauctor.co.uk, 2008-02-17, 1175]
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - parameter count = 9
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 1: Jescie of type java.lang.String
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 2: Mcbride of type java.lang.String
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 3: Ap #944-4855 Erat, St. of type java.lang.String
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 4: Santa Juana of type java.lang.String
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 5: 58209 of type java.lang.String
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 6: 725-538-4828 of type java.lang.String
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 7: quis.urna@semperauctor.co.uk of type java.lang.String
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 8: 2008-02-17 of type java.time.LocalDate
+2020-09-22 02:35:44.527 [AWT-EventQueue-0] DEBUG book.db.Dao - Setting param 9: 1175 of type java.lang.Long
+2020-09-22 02:35:44.554 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Updating Customer [id=1175, firstName=Jescie, lastName=Mcbride, street=Ap #944-4855 Erat, St., city=Santa Juana, postalCode=58209, phone=725-538-4828, emailAddress=quis.urna@semperauctor.co.uk, joinedDate=2008-02-17] was unsuccessful
+2020-09-22 02:35:44.562 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 02:35:44.574 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 02:35:52.332 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-22T09:35:52.331184400Z
+2020-09-22 02:35:52.332 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 71424 ms
+2020-09-22 02:37:22.102 [main] INFO  book.Books2 - Starting Books
+2020-09-22 02:37:22.103 [main] INFO  book.Books2 - 2020-09-22T09:37:22.103053600Z
+2020-09-22 02:37:22.106 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-22 02:37:22.107 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-22 02:37:22.433 [main] DEBUG book.db.Database - Database connected
+2020-09-22 02:37:22.507 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-22 02:37:22.542 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-22 02:37:22.578 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-22 02:37:22.578 [main] DEBUG book.Books2 - Creating the UI
+2020-09-22 02:37:22.619 [main] INFO  book.Books2 - 2020-09-22T09:37:22.619031700Z
+2020-09-22 02:37:22.620 [main] INFO  book.Books2 - Duration: 515 ms
+2020-09-22 02:37:22.620 [main] INFO  book.Books2 - Books has stopped
+2020-09-22 02:37:22.792 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-22 02:37:22.792 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 02:37:22.805 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 02:37:24.124 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-22 02:37:24.140 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-22 02:37:30.527 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 02:37:30.541 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 02:37:33.269 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-22T09:37:33.269895900Z
+2020-09-22 02:37:33.269 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 11451 ms
+2020-09-22 02:38:39.527 [main] INFO  book.Books2 - Starting Books
+2020-09-22 02:38:39.528 [main] INFO  book.Books2 - 2020-09-22T09:38:39.528978200Z
+2020-09-22 02:38:39.531 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-22 02:38:39.532 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-22 02:38:39.862 [main] DEBUG book.db.Database - Database connected
+2020-09-22 02:38:39.937 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-22 02:38:39.969 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-22 02:38:40.010 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-22 02:38:40.010 [main] DEBUG book.Books2 - Creating the UI
+2020-09-22 02:38:40.046 [main] INFO  book.Books2 - 2020-09-22T09:38:40.046077600Z
+2020-09-22 02:38:40.046 [main] INFO  book.Books2 - Duration: 517 ms
+2020-09-22 02:38:40.046 [main] INFO  book.Books2 - Books has stopped
+2020-09-22 02:38:40.213 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-22 02:38:40.214 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 02:38:40.228 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 02:38:41.559 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-22 02:38:41.580 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-22 02:38:48.246 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 02:38:48.259 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 02:39:47.872 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-22T09:39:47.872307300Z
+2020-09-22 02:39:47.872 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 68619 ms
+2020-09-22 02:39:52.018 [main] INFO  book.Books2 - Starting Books
+2020-09-22 02:39:52.019 [main] INFO  book.Books2 - 2020-09-22T09:39:52.019911300Z
+2020-09-22 02:39:52.022 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-22 02:39:52.024 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-22 02:39:52.393 [main] DEBUG book.db.Database - Database connected
+2020-09-22 02:39:52.469 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-22 02:39:52.504 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-22 02:39:52.547 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-22 02:39:52.547 [main] DEBUG book.Books2 - Creating the UI
+2020-09-22 02:39:52.575 [main] INFO  book.Books2 - 2020-09-22T09:39:52.575232600Z
+2020-09-22 02:39:52.576 [main] INFO  book.Books2 - Duration: 555 ms
+2020-09-22 02:39:52.576 [main] INFO  book.Books2 - Books has stopped
+2020-09-22 02:39:52.744 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-22 02:39:52.744 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 02:39:52.804 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 02:39:54.277 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-22 02:39:54.293 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-22 02:40:01.864 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 02:40:01.879 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 02:40:40.257 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-22T09:40:40.257085100Z
+2020-09-22 02:40:40.258 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 48535 ms
+2020-09-22 22:59:38.786 [main] INFO  book.Books2 - Starting Books
+2020-09-22 22:59:38.787 [main] INFO  book.Books2 - 2020-09-23T05:59:38.787784300Z
+2020-09-22 22:59:38.790 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-22 22:59:38.791 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-22 22:59:39.185 [main] DEBUG book.db.Database - Database connected
+2020-09-22 22:59:39.276 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-22 22:59:39.307 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-22 22:59:39.345 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-22 22:59:39.346 [main] DEBUG book.Books2 - Creating the UI
+2020-09-22 22:59:39.374 [main] INFO  book.Books2 - 2020-09-23T05:59:39.374051600Z
+2020-09-22 22:59:39.374 [main] INFO  book.Books2 - Duration: 586 ms
+2020-09-22 22:59:39.374 [main] INFO  book.Books2 - Books has stopped
+2020-09-22 22:59:39.553 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-22 22:59:39.554 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 22:59:39.572 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 22:59:40.888 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-22 22:59:40.907 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-22 22:59:47.680 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 22:59:47.692 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 23:00:10.978 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-23T06:00:10.978219800Z
+2020-09-22 23:00:10.979 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 32494 ms
+2020-09-22 23:24:27.153 [main] INFO  book.Books2 - Starting Books
+2020-09-22 23:24:27.154 [main] INFO  book.Books2 - 2020-09-23T06:24:27.153798600Z
+2020-09-22 23:24:27.157 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-22 23:24:27.158 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-22 23:24:27.480 [main] DEBUG book.db.Database - Database connected
+2020-09-22 23:24:27.552 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-22 23:24:27.585 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-22 23:24:27.625 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-22 23:24:27.626 [main] DEBUG book.Books2 - Creating the UI
+2020-09-22 23:24:27.672 [main] INFO  book.Books2 - 2020-09-23T06:24:27.672021200Z
+2020-09-22 23:24:27.672 [main] INFO  book.Books2 - Duration: 518 ms
+2020-09-22 23:24:27.672 [main] INFO  book.Books2 - Books has stopped
+2020-09-22 23:24:27.837 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-22 23:24:27.838 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-22 23:24:27.851 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-22 23:24:29.183 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-22 23:24:29.199 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-22 23:24:35.911 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-22 23:24:35.924 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-22 23:24:39.919 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-23T06:24:39.919513100Z
+2020-09-22 23:24:39.919 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 13037 ms
+2020-09-23 00:44:05.792 [main] INFO  book.Books2 - Starting Books
+2020-09-23 00:44:05.793 [main] INFO  book.Books2 - 2020-09-23T07:44:05.793108100Z
+2020-09-23 00:44:05.796 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-23 00:44:05.797 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-23 00:44:06.117 [main] DEBUG book.db.Database - Database connected
+2020-09-23 00:44:06.195 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-23 00:44:06.232 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-23 00:44:06.275 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-23 00:44:06.277 [main] DEBUG book.Books2 - Creating the UI
+2020-09-23 00:44:06.341 [main] INFO  book.Books2 - 2020-09-23T07:44:06.341938Z
+2020-09-23 00:44:06.341 [main] INFO  book.Books2 - Duration: 548 ms
+2020-09-23 00:44:06.341 [main] INFO  book.Books2 - Books has stopped
+2020-09-23 00:44:06.513 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-23 00:44:06.513 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-23 00:44:06.526 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-23 00:44:07.797 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-23 00:44:07.813 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-23 00:44:14.531 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-23 00:44:14.549 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-23 00:44:21.038 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-23T07:44:21.038843700Z
+2020-09-23 00:44:21.038 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 15520 ms
+2020-09-23 00:48:51.783 [main] INFO  book.Books2 - Starting Books
+2020-09-23 00:48:51.783 [main] INFO  book.Books2 - 2020-09-23T07:48:51.783723700Z
+2020-09-23 00:48:51.787 [main] DEBUG book.db.Database - Loading database properties from db.properties
+2020-09-23 00:48:51.788 [main] DEBUG book.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-09-23 00:48:52.106 [main] DEBUG book.db.Database - Database connected
+2020-09-23 00:48:52.190 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWCustomer
+2020-09-23 00:48:52.223 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWBook
+2020-09-23 00:48:52.268 [main] DEBUG book.db.Database - Found the target table named: A00855225_NEWPurchase
+2020-09-23 00:48:52.270 [main] DEBUG book.Books2 - Creating the UI
+2020-09-23 00:48:52.330 [main] INFO  book.Books2 - 2020-09-23T07:48:52.330724600Z
+2020-09-23 00:48:52.330 [main] INFO  book.Books2 - Duration: 547 ms
+2020-09-23 00:48:52.330 [main] INFO  book.Books2 - Books has stopped
+2020-09-23 00:48:52.497 [AWT-EventQueue-0] DEBUG book.ui.MainFrame - 
+Creating MainFrame
+2020-09-23 00:48:52.498 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - SELECT id FROM A00855225_NEWCustomer
+2020-09-23 00:48:52.514 [AWT-EventQueue-0] DEBUG book.db.CustomerDao - Loaded 98 customer IDs from the database
+2020-09-23 00:48:53.867 [AWT-EventQueue-0] DEBUG book.db.BookDao - SELECT id FROM A00855225_NEWBook
+2020-09-23 00:48:53.883 [AWT-EventQueue-0] DEBUG book.db.BookDao - Loaded 499 books IDs from the database
+2020-09-23 00:49:00.805 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - SELECT id FROM A00855225_NEWPurchase
+2020-09-23 00:49:00.818 [AWT-EventQueue-0] DEBUG book.db.PurchaseDao - Loaded 100 purchase IDs from the database
+2020-09-23 00:50:29.486 [AWT-EventQueue-0] INFO  book.ui.MainFrame - End: 2020-09-23T07:50:29.486631700Z
+2020-09-23 00:50:29.486 [AWT-EventQueue-0] INFO  book.ui.MainFrame - Duration: 98003 ms

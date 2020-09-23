@@ -1,8 +1,3 @@
-/**
- * Project: Books
- *
- */
-
 package book.io;
 
 import java.io.File;
@@ -43,8 +38,7 @@ public class BookReader extends Reader {
 	 * Read the book input data.
 	 * 
 	 * @return A collection of books.
-	 * @throws ApplicationException
-	 * @throws IOException
+	 * @throws ApplicationException Application Exception
 	 */
 	public static int read(File bookDataFile, BookDao dao) throws ApplicationException {
 		int bookCount = 0;

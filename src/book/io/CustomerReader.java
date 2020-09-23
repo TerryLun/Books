@@ -1,8 +1,3 @@
-/**
- * Project: Books
- * 
- */
-
 package book.io;
 
 import java.io.BufferedReader;
@@ -46,7 +41,7 @@ public class CustomerReader extends Reader {
 	 * Read the customer input data.
 	 * 
 	 * @return A collection of customers.
-	 * @throws ApplicationException
+	 * @throws ApplicationException Application Exception
 	 */
 	public static int read(File customerDataFile, CustomerDao dao) throws ApplicationException {
 		BufferedReader customerReader = null;
@@ -96,8 +91,8 @@ public class CustomerReader extends Reader {
 	/**
 	 * Parse a CustomerForSqlServer data string into a Customer object;
 	 * 
-	 * @param row
-	 * @throws ApplicationException
+	 * @param data raw data
+	 * @throws ApplicationException Application Exception
 	 */
 	private static Customer readCustomerString(String data) throws ApplicationException {
 		String[] elements = data.split(FIELD_DELIMITER);

@@ -1,8 +1,3 @@
-/**
- * Project: Books
- *
- */
-
 package book;
 
 /**

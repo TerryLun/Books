@@ -1,8 +1,3 @@
-/**
- * Project: Books
- * File: Common.java
- */
-
 package book.data.util;
 
 import java.time.LocalDate;
@@ -20,8 +15,8 @@ public class Common {
 	/**
 	 * If the input string exceeds the length then truncate the string to the length - 3 characters and add "..."
 	 * 
-	 * @param title
-	 * @param length
+	 * @param title book title
+	 * @param length max length
 	 * @return a string
 	 */
 	public static String truncateIfRequired(String title, int length) {
@@ -35,10 +30,10 @@ public class Common {
 	/**
 	 * Converts string into LocaDate
 	 * 
-	 * @param date
-	 * @return
+	 * @param date date
+	 * @return local date
 	 */
-	public static final LocalDate toLocalDate(String date) {
+	public static LocalDate toLocalDate(String date) {
 
 		LocalDate localDate = null;
 		try {

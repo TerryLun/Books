@@ -1,8 +1,3 @@
-/**
- * Project: Books
-
- */
-
 package book.io;
 
 import java.util.Arrays;
@@ -20,7 +15,7 @@ public class Reader {
 
 	/**
 	 * Given a FIELD_DELIMITER delimited input string, parts the string into a String array.
-	 * 
+	 *
 	 * @param row
 	 *            input string
 	 * @return the parsed String array

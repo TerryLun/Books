@@ -1,7 +1,3 @@
-/**
- * Project: Books
- *
- */
 package book.db;
 
 /**

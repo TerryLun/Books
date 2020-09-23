@@ -1,8 +1,3 @@
-/**
- * Project: Books
- * File:CustomerDialog.java
- *
- */
 package book.ui;
 
 import java.awt.BorderLayout;
@@ -37,18 +32,17 @@ import net.miginfocom.swing.MigLayout;
  */
 @SuppressWarnings("serial")
 public class CustomerDialog extends JDialog {
-	private final JPanel contentPanel = new JPanel();
 	private static final Logger LOG = LogManager.getLogger();
 
-	private JTextField textField;//id
-	private JTextField textField_1;//first name
-	private JTextField textField_2;//last name
-	private JTextField textField_3;//street
-	private JTextField textField_4;//city
-	private JTextField textField_5;//postal code
-	private JTextField textField_6;//phone
-	private JTextField textField_7;//email
-	private JTextField textField_8;//date
+	private final JTextField textField;//id
+	private final JTextField textField_1;//first name
+	private final JTextField textField_2;//last name
+	private final JTextField textField_3;//street
+	private final JTextField textField_4;//city
+	private final JTextField textField_5;//postal code
+	private final JTextField textField_6;//phone
+	private final JTextField textField_7;//email
+	private final JTextField textField_8;//date
 
 	/**
 	 * Create the dialog.
@@ -58,6 +52,7 @@ public class CustomerDialog extends JDialog {
 		setBounds(100, 100, 450, 450);
 		setLocationRelativeTo(null);
 		getContentPane().setLayout(new BorderLayout());
+		JPanel contentPanel = new JPanel();
 		contentPanel.setForeground(new Color(255, 255, 255));
 		contentPanel.setBackground(new Color(205, 92, 92));
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -207,6 +202,7 @@ public class CustomerDialog extends JDialog {
 
 	/**
 	 * @param customer
+	 * 				set customer data
 	 */
 	public void setCustomer(Customer customer) {
 		textField.setText(Long.toString(customer.getId()));

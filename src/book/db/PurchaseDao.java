@@ -1,7 +1,3 @@
-/**
- * Project: Books
- *
- */
 package book.db;
 
 import java.io.File;
@@ -28,8 +24,8 @@ public class PurchaseDao extends Dao {
 	public static final String TABLE_NAME = DbConstants.PURCHASE_TABLE_NAME;
 
 	private static final String PURCHASE_DATA_FILENAME = "purchases.csv";
-	private static Logger LOG = LogManager.getLogger();
-	private static PurchaseDao theInstance = new PurchaseDao();
+	private static final Logger LOG = LogManager.getLogger();
+	private static final PurchaseDao theInstance = new PurchaseDao();
 	private static Database database;
 
 	private PurchaseDao() {
@@ -44,8 +40,7 @@ public class PurchaseDao extends Dao {
 
 	/**
 	 * @param purchaseDataFile
-	 * @throws ApplicationException
-	 * @throws SQLException
+	 * @throws ApplicationException Application Exception
 	 */
 	public void init() throws ApplicationException {
 		File purchaseDataFile = new File(PURCHASE_DATA_FILENAME);
@@ -115,8 +110,8 @@ public class PurchaseDao extends Dao {
 	/**
 	 * Update the purchase.
 	 *
-	 * @param purchase
-	 * @throws SQLException
+	 * @param purchase purchase
+	 * @throws SQLException SQL Exception
 	 */
 	public void update(Purchase purchase) throws SQLException {
 		String sqlString = String.format("UPDATE %s SET %s=?, %s=?, %s=? WHERE %s=?", TABLE_NAME, //
@@ -137,8 +132,8 @@ public class PurchaseDao extends Dao {
 	/**
 	 * Delete the book from the database.
 	 *
-	 * @param purchase
-	 * @throws SQLException
+	 * @param purchase purchase
+	 * @throws SQLException SQL Exception
 	 */
 	public void delete(Purchase purchase) throws SQLException {
 		Connection connection;
@@ -160,7 +155,7 @@ public class PurchaseDao extends Dao {
 	 * Retrieve all the purchase IDs from the database
 	 *
 	 * @return the list of purchase IDs
-	 * @throws SQLException
+	 * @throws SQLException SQL Exception
 	 */
 	public List<Long> getPurchaseIds() throws SQLException {
 		List<Long> ids = new ArrayList<>();
@@ -189,9 +184,9 @@ public class PurchaseDao extends Dao {
 	}
 
 	/**
-	 * @param purchaseId
-	 * @return
-	 * @throws Exception
+	 * @param purchaseId purchase Id
+	 * @return Purchase
+	 * @throws Exception Exception
 	 */
 	public Purchase getPurchase(Long purchaseId) throws Exception {
 		String sqlString = String.format("SELECT * FROM %s WHERE %s = %d", TABLE_NAME, Column.ID.name, purchaseId);
@@ -226,8 +221,8 @@ public class PurchaseDao extends Dao {
 	}
 
 	/**
-	 * @return
-	 * @throws Exception
+	 * @return purchase count
+	 * @throws Exception Exception
 	 */
 	public int countAllPurchases() throws Exception {
 		Statement statement = null;

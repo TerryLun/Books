@@ -1,8 +1,3 @@
-/**
- * Project: Books
- * 
- */
-
 package book.data;
 
 /**
@@ -12,7 +7,7 @@ public class Book {
 
 	public static final int ATTRIBUTE_COUNT = 8;
 
-	private long id;
+	private final long id;
 	private String isbn;
 	private String authors;
 	private int year;
@@ -23,7 +18,7 @@ public class Book {
 
 	public static class Builder {
 		// Required parameters
-		private long id;
+		private final long id;
 
 		// Optional parameters
 		private String isbn;

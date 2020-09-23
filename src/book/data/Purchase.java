@@ -1,7 +1,3 @@
-/**
- * Project: Books
- *
- */
 package book.data;
 
 /**
@@ -10,17 +6,17 @@ package book.data;
 public class Purchase {
 	public static final int ATTRIBUTE_COUNT = 4;
 
-	private long id;
-	private long customerId;
-	private long bookId;
-	private float price;
+	private final long id;
+	private final long customerId;
+	private final long bookId;
+	private final float price;
 
 	public static class Builder {
 		// Required parameters
-		private long id;
-		private long customerId;
-		private long bookId;
-		private float price;
+		private final long id;
+		private final long customerId;
+		private final long bookId;
+		private final float price;
 
 		public Builder(long id, long customerId, long bookId, float price) {
 			this.id = id;
@@ -35,7 +31,7 @@ public class Purchase {
 	}
 
 	/**
-	 * @param builder
+	 * @param builder builder object
 	 */
 	public Purchase(Builder builder) {
 		this.id = builder.id;

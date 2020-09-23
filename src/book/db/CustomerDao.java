@@ -1,7 +1,3 @@
-/**
- * Project: Books
- *
- */
 package book.db;
 
 import java.io.File;
@@ -30,8 +26,8 @@ public class CustomerDao extends Dao {
 	public static final String TABLE_NAME = DbConstants.CUSTOMER_TABLE_NAME;
 
 	private static final String CUSTOMERS_DATA_FILENAME = "customers.dat";
-	private static Logger LOG = LogManager.getLogger(CustomerDao.class);
-	private static CustomerDao theInstance = new CustomerDao();
+	private static final Logger LOG = LogManager.getLogger(CustomerDao.class);
+	private static final CustomerDao theInstance = new CustomerDao();
 	private static Database database;
 
 	private CustomerDao() {
@@ -45,9 +41,7 @@ public class CustomerDao extends Dao {
 	}
 
 	/**
-	 * @param customerDataFile
-	 * @throws ApplicationException
-	 * @throws SQLException
+	 * @throws ApplicationException Application Exception
 	 */
 	public void init() throws ApplicationException {
 		File customerDataFile = new File(CUSTOMERS_DATA_FILENAME);
@@ -124,8 +118,8 @@ public class CustomerDao extends Dao {
 	/**
 	 * Update the customer.
 	 * 
-	 * @param customer
-	 * @throws SQLException
+	 * @param customer customer to update
+	 * @throws SQLException SQL Exception
 	 */
 	public void update(Customer customer) throws SQLException {
 		String sqlString = String.format("UPDATE %s SET %s=?, %s=?, %s=?, %s=?, %s=?, %s=?, %s=?, %s=? WHERE %s=?", TABLE_NAME, //
@@ -156,8 +150,8 @@ public class CustomerDao extends Dao {
 	/**
 	 * Delete the customer from the database.
 	 * 
-	 * @param customer
-	 * @throws SQLException
+	 * @param customer customer to delete
+	 * @throws SQLException SQL Exception
 	 */
 	public void delete(Customer customer) throws SQLException {
 		Connection connection;
@@ -179,7 +173,7 @@ public class CustomerDao extends Dao {
 	 * Retrieve all the customer IDs from the database
 	 * 
 	 * @return the list of customer IDs
-	 * @throws SQLException
+	 * @throws SQLException SQL Exception
 	 */
 	public List<Long> getCustomerIds() throws SQLException {
 		List<Long> ids = new ArrayList<>();
@@ -209,9 +203,9 @@ public class CustomerDao extends Dao {
 	}
 
 	/**
-	 * @param customerId
-	 * @return
-	 * @throws Exception
+	 * @param customerId customer id
+	 * @return customer object
+	 * @throws Exception Exception
 	 */
 	public Customer getCustomer(Long customerId) throws Exception {
 		String sqlString = String.format("SELECT * FROM %s WHERE %s = %d", TABLE_NAME, Column.ID.name, customerId);

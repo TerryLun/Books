@@ -1,7 +1,3 @@
-/**
- * Project: Books
- *
- */
 package book;
 
 import java.awt.EventQueue;
@@ -42,11 +38,9 @@ public class Books2 {
 
 	/**
 	 * 
-	 * @param args
-	 * @throws IOException
-	 * @throws FileNotFoundException
+	 * @param args args
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		
 		LOG.info("Starting Books");
 		Instant startTime = Instant.now();
@@ -72,10 +66,9 @@ public class Books2 {
 
 	/**
 	 * 
-	 * @throws ApplicationException
-	 * @throws IOException
-	 * @throws FileNotFoundException
-	 * @throws ParseException
+	 * @throws ApplicationException application exception
+	 * @throws IOException io exception
+	 * @throws FileNotFoundException file not found exception
 	 */
 	public Books2() throws ApplicationException, FileNotFoundException, IOException {
 		Database.getTheInstance().init();
@@ -95,16 +88,15 @@ public class Books2 {
 			source = new ConfigurationSource(new FileInputStream(LOG4J_CONFIG_FILENAME));
 			Configurator.initialize(null, source);
 		} catch (IOException e) {
-			System.out.println(String.format("WARNING! Can't find the log4j logging configuration file %s; using DefaultConfiguration for logging.",
-					LOG4J_CONFIG_FILENAME));
+			System.out.printf("WARNING! Can't find the log4j logging configuration file %s; using DefaultConfiguration for logging.%n",
+					LOG4J_CONFIG_FILENAME);
 			Configurator.initialize(new DefaultConfiguration());
 		}
 	}
 
 	/**
-	 * @throws ApplicationException
-	 * @throws FileNotFoundException
-	 * 
+	 * Runs program methods
+	 *
 	 */
 	private void run() {
 		try {
