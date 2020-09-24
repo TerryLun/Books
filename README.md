@@ -25,4 +25,5 @@ This is a personal course project for COMP 2613 (Java Application Development)
 <li>Singleton</li>
 </ul>
 
+## Screenshots
 ![screenshot](screenshot.png)
